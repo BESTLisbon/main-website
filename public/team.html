@@ -36,19 +36,36 @@
                     <div class="hover:text-gray-200 border-b-4 rounded-b-sm border-white hover:border-gray-200">
                         <a href="./team.html">Team</a>
                     </div>
-                    <div class="bg-white rounded-md py-1 px-3 hover:scale-105 transition-transform">
-                        <a class="text-emerald-500 flex items-center space-x-2" href="./index.html">
-                            <p>Our Events</p>
+                    <div class="">
+                        <button
+                            class="bg-white rounded-md py-1 px-3 hover:scale-105 transition-transform text-emerald-500 flex items-center space-x-2"
+                            href="./index.html" onclick="toggleDropdown()">
+                            <p class="font-semibold">Our Events</p>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 fill-emerald-500"
                                 viewBox="0 0 20 20">
                                 <path fill-rule="evenodd"
                                     d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
                                     cdivp-rule="evenodd" />
                             </svg>
-                        </a>
+                        </button>
+                        <div class="absolute bg-white rounded-md hidden flex-col items-center gap-y-5 w-44 py-3 mt-2 shadow-md"
+                            id="dropdown">
+                            <a href=" https://best.tecnico.ulisboa.pt/ebec2022/" class="flex-none">
+                                <img src="./images/logos/ebec.png" alt="ebec lisbon"
+                                    class="w-24 hover:scale-105 transition-transform" />
+                            </a>
+                            <a href="https://www.best.eu.org/courses/list.jsp" class="flex-none">
+                                <img src="./images/logos/courses.png" alt="best courses"
+                                    class="w-28 hover:scale-105 transition-transform" />
+                            </a>
+                            <a href="https://best.tecnico.ulisboa.pt/insideview/" class="flex-none">
+                                <img src="./images/logos/BIV_Logo_azul_semfundo.png" alt="best inside view"
+                                    class="w-16 hover:scale-105 transition-transform" />
+                            </a>
+                        </div>
                     </div>
                     <div class="hover:scale-105 transition-transform">
-                        <a href="./index.html"><img class="w-10 rounded-sm" src="./images/flags/eng_flag.png"
+                        <a href="./pt_team.html"><img class="w-10 rounded-sm" src="./images/flags/pt_flag.png"
                                 alt="" /></a>
                     </div>
                 </div>
@@ -75,25 +92,43 @@
                         <a href="./index.html">Home</a>
                     </li>
                     <li class="mb-8 px-3 hover:text-green-500">
-                        <a href="./index.html">About Us</a>
+                        <a href="./about_us.html">About Us</a>
                     </li>
                     <li class="mb-8 px-3 hover:text-green-500">
-                        <a href="./index.html">Team</a>
+                        <a href="./team.html">Team</a>
                     </li>
-                    <li class="bg-emerald-500 rounded-md py-1 px-3 hover:scale-105 transition-transform w-52">
-                        <a class="text-white flex items-center space-x-2" href="./index.html">
-                            <p>Our Events</p>
+                    <li class="">
+                        <button
+                            class="bg-emerald-500 rounded-md py-1 px-3 hover:scale-105 transition-transform w-52 text-white flex items-center space-x-2"
+                            href="./index.html" onclick="toggleDropdownSide()">
+                            <p class="font-semibold">Our Events</p>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 fill-white" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd"
                                     d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
                                     cdivp-rule="evenodd" />
                             </svg>
-                        </a>
+                        </button>
+
+                        <div class="absolute border-4 border-emerald-500 rounded-md hidden flex-col items-center gap-y-5 w-52 py-3 mt-2 shadow-md"
+                            id="dropdownside">
+                            <a href="https://best.tecnico.ulisboa.pt/ebec2022/" class="flex-none">
+                                <img src="./images/logos/ebec.png" alt="ebec lisbon"
+                                    class="w-24 hover:scale-105 transition-transform" />
+                            </a>
+                            <a href="https://www.best.eu.org/courses/list.jsp" class="flex-none">
+                                <img src="./images/logos/courses.png" alt="best courses"
+                                    class="w-28 hover:scale-105 transition-transform" />
+                            </a>
+                            <a href="https://best.tecnico.ulisboa.pt/insideview/" class="flex-none">
+                                <img src="./images/logos/BIV_Logo_azul_semfundo.png" alt="best inside view"
+                                    class="w-16 hover:scale-105 transition-transform" />
+                            </a>
+                        </div>
                     </li>
                 </ul>
                 <!-- Flag -->
                 <div class="hover:scale-105 transition-transform bottom-10 left-9 absolute">
-                    <a href="./index.html"><img class="w-10 rounded-sm" src="./images/flags/eng_flag.png" alt="" /></a>
+                    <a href="./pt_team.html"><img class="w-10 rounded-sm" src="./images/flags/pt_flag.png" alt="" /></a>
                 </div>
             </div>
         </div>
@@ -126,7 +161,7 @@
                     </h1>
                     <div class="grid grid-cols-1 md:grid-cols-5 justify-items-center">
                         <div class="max-w-xs">
-                            <img src="./images/change.png" alt="" class="rounded-full" />
+                            <img src="./images/André Ribeiro.JPG" alt="" class="rounded-full" />
                             <h2 class="text-green-600 font-semibold text-lg mt-2">
                                 André Ribeiro
                             </h2>
@@ -144,7 +179,7 @@
                             </h3>
                         </div>
                         <div class="max-w-xs">
-                            <img src="./images/change.png" alt="" class="rounded-full" />
+                            <img src="./images/Rodrigo Anjos.JPG" alt="" class="rounded-full" />
                             <h2 class="text-green-600 font-semibold text-lg mt-2">
                                 Rodrigo Anjos
                             </h2>
@@ -153,7 +188,7 @@
                             </h3>
                         </div>
                         <div class="max-w-xs">
-                            <img src="./images/change.png" alt="" class="rounded-full" />
+                            <img src="./images/Joana Nunes.JPG" alt="" class="rounded-full" />
                             <h2 class="text-green-600 font-semibold text-lg mt-2">
                                 Joana Nunes
                             </h2>
@@ -190,18 +225,18 @@
                 </h1>
                 <div class="grid grid-cols-1 md:grid-cols-4 justify-items-center">
                     <div class="max-w-xs">
-                        <img src="./images/change.png" alt="" class="rounded-full" />
+                        <img src="./images/Raí Silva.JPG" alt="" class="rounded-full" />
                         <h2 class="text-white font-semibold text-lg mt-2">
-                            Diogo Silva
+                            Raí Silva
                         </h2>
                         <h3 class="text-white font-semibold text-md">
                             Information Technologies
                         </h3>
                     </div>
                     <div class="max-w-xs">
-                        <img src="./images/change.png" alt="" class="rounded-full" />
+                        <img src="./images/Rita Graça.JPG" alt="" class="rounded-full" />
                         <h2 class="text-white font-semibold text-lg mt-2">
-                            Sara Cotrim
+                            Rita Graça
                         </h2>
                         <h3 class="text-white font-semibold text-md">
                             Public Relations
@@ -210,16 +245,16 @@
                     <div class="max-w-xs">
                         <img src="./images/change.png" alt="" class="rounded-full" />
                         <h2 class="text-white font-semibold text-lg mt-2">
-                            Marta Martinho
+                            Tiago Moreira
                         </h2>
                         <h3 class="text-white font-semibold text-md">
                             Corporate Relations
                         </h3>
                     </div>
                     <div class="max-w-xs">
-                        <img src="./images/change.png" alt="" class="rounded-full" />
+                        <img src="./images/Inês Figueiredo.JPG" alt="" class="rounded-full" />
                         <h2 class="text-white font-semibold text-lg mt-2">
-                            Daniela Almeida
+                            Inês Figueiredo
                         </h2>
                         <h3 class="text-white font-semibold text-md">
                             Design
@@ -294,7 +329,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-5 justify-items-center">
                     <div></div>
                     <div class="max-w-xs">
-                        <img src="./images/change.png" alt="" class="rounded-full" />
+                        <img src="./images/João Martins3.jpeg" alt="" class="rounded-full" />
                         <h2 class="text-white font-semibold text-lg mt-2">
                             João Martins
                         </h2>
@@ -312,7 +347,7 @@
                         </h3>
                     </div>
                     <div class="max-w-xs">
-                        <img src="./images/change.png" alt="" class="rounded-full" />
+                        <img src="./images/Inês Figueiredo.JPG" alt="" class="rounded-full" />
                         <h2 class="text-white font-semibold text-lg mt-2">
                             Inês Figueiredo
                         </h2>
@@ -384,11 +419,12 @@
                     </div>
                 </div>
                 <div class="mx-auto text-gray-500">
-                    <p class="text-center">© 2021 BEST Lisboa. All rights reserved.</p>
+                    <p class="text-center">© 2023 BEST Lisboa. All rights reserved.</p>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="./js/button_events.js"></script>
 </body>
 
 </html>
