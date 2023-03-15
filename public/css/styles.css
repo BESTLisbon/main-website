@@ -297,6 +297,14 @@ summary {
 }
 
 /*
+Pulls the sidebar to the front of the page
+*/
+
+#sidebar{
+  z-index: 1;
+}
+
+/*
 Removes the default spacing and border for appropriate elements.
 */
 
@@ -692,6 +700,10 @@ body {
 
 .h-5 {
   height: 1.25rem;
+}
+
+.h-40 {
+  height: 10rem;
 }
 
 .h-60 {
@@ -1123,6 +1135,10 @@ body {
   padding-bottom: 2.5rem;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1315,6 +1331,10 @@ body {
 
   .md\:max-w-xl {
     max-width: 36rem;
+  }
+
+  .md\:h-60 {
+    max-height: 15rem;
   }
 
   .md\:grid-cols-3 {
