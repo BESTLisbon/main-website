@@ -1,13 +1,14 @@
-const swiper = new Swiper(".swiper", {
-    // Optional parameters
-    direction: "horizontal",
-    loop: true,
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
-    scrollbar: {
-        el: ".swiper-scrollbar",
-        hide: true,
-    },
+new Swiper(swiperContainer, parameters);
+
+const swiper = new Swiper('.swiper', {
+  speed: 400,
+  spaceBetween: 100,
+  autoplay: {
+    delay: 3000,
+  },
+
+
 });
+
+swiper.slideNext();
+swiper.autoplay.start()
