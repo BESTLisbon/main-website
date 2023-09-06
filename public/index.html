@@ -15,14 +15,13 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet" />
     <!-- Swiper -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <!-- Script -->
     <script src="./js/button_events.js"></script>
-    <script src="./js/carousel.js"></script>
-    
+
     <title>Best Lisbon</title>
+    <link rel="icon" type="image/x-icon" href="./images/logos/favicon.ico">
 </head>
 
 <body class="bg-gradient-to-r from-green-500 to-emerald-500 text-white">
@@ -57,7 +56,7 @@
                         </button>
                         <div class="absolute bg-white rounded-md hidden flex-col items-center gap-y-5 w-44 py-3 mt-2 shadow-md"
                             id="dropdown">
-                            <a href=" https://best.tecnico.ulisboa.pt/EBEC23/" class="flex-none">
+                            <a href=" https://best.tecnico.ulisboa.pt/EBEC23/public/" class="flex-none">
                                 <img src="./images/logos/ebec.png" alt="ebec lisbon"
                                     class="w-24 hover:scale-105 transition-transform" />
                             </a>
@@ -107,7 +106,7 @@
                     <li class="">
                         <button
                             class="bg-emerald-500 rounded-md py-1 px-3 hover:scale-105 transition-transform w-52 text-white flex items-center space-x-2"
-                            href="./index.html" onclick="toggleDropdownSide()">
+                             onclick="toggleDropdownSide()">
                             <p class="font-semibold">Our Events</p>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 fill-white" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd"
@@ -118,7 +117,7 @@
 
                         <div class="absolute border-4 border-emerald-500 rounded-md hidden flex-col items-center gap-y-5 w-52 py-3 mt-2 shadow-md"
                             id="dropdownside">
-                            <a href="https://best.tecnico.ulisboa.pt/ebec2022/" class="flex-none">
+                            <a href="https://best.tecnico.ulisboa.pt/EBEC23/public" class="flex-none">
                                 <img src="./images/logos/ebec.png" alt="ebec lisbon"
                                     class="w-24 hover:scale-105 transition-transform" />
                             </a>
@@ -145,7 +144,7 @@
             <div class="max-w-7xl mx-auto mb-12 lg:p-7 py-3 px-7 lg:mt-12 mt-0">
                 <div class="grid lg:grid-cols-10 grid-cols-1">
                     <div class="col-span-5 mx-auto my-auto lg:text-left text-center">
-                        <h1 class="md:text-4xl font-bold uppercase text-2xl pb-4">
+                        <h1 class="md:text-4xl text-4xl font-bold uppercase">
                             Grow as a family,<br />
                             from Lisbon to Europe.
                         </h1>
@@ -155,7 +154,7 @@
                     </div>
                     <div class="col-span-5 mx-auto lg:my-auto my-11">
                         <img src="./images/people/mw2021.png" alt="Best motivational weekend"
-                            class="object-cover md:h-60 border-4 rounded-xl" />
+                            class="object-cover h-60 border-4 rounded-xl" />
                     </div>
                 </div>
             </div>
@@ -172,11 +171,11 @@
         <section id="sponsors" class="bg-white">
             <div class="max-w-5xl mx-auto bg-white px-7 py-2">
                 <div
-                    class="grid my-7 md:my-1 lg:grid-cols-4 grid-cols-2 lg:gap-20 md:gap-14 gap-8 items-center content-evenly justify-items-center">
-                    <img class="md:w-40 w-30" src="./images/logos/ist.png" alt="ist" />
-                    <img class="md:w-56 w-42" src="./images/logos/ipdj-large.png" alt="ipdj" />
-                    <img class="md:w-44 w-33" src="./images/logos/santander.png" alt="santander" />
-                    <img class="md:w-40 w-30" src="./images/logos/fcul.png" alt="fcul" />
+                    class="grid my-7 md:my-1 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 lg:gap-20 md:gap-14 gap-8 items-center content-evenly justify-items-center">
+                    <img class="w-40" src="./images/logos/ist.png" alt="ist" />
+                    <img class="w-56" src="./images/logos/ipdj-large.png" alt="ipdj" />
+                    <img class="w-44" src="./images/logos/santander.png" alt="santander" />
+                    <img class="w-40" src="./images/logos/fcul.png" alt="fcul" />
                 </div>
             </div>
         </section>
@@ -187,7 +186,7 @@
                     preserveAspectRatio="none">
                     <path
                         d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z"
-                        class="fill-white" ></path>
+                        class="fill-white"></path>
                 </svg>
             </div>
             <div class="max-w-6xl mx-auto mb-12 lg:p-7 py-3 px-7 lg:mt-10 mt-0">
@@ -200,8 +199,8 @@
                         <h2 class="lg:mb-3 my-3 text-2xl font-bold mx-10">
                             A little about us...
                         </h2>
-                        <p class="text-lg max-w-2xl md:mx-10">
-                            BEST Lisboa is one of the 90 BEST Local groups
+                        <p class="text-lg max-w-2xl mx-10">
+                            BEST Lisbon is one of the 90 BEST Local groups
                             that exist all over Europe. We are a non
                             governmental, apolitical organization that has
                             the mission of Empowering Diversity and
@@ -212,15 +211,15 @@
                         </p>
                     </div>
                 </div>
-                <div class="grid lg:grid-cols-10 grid-cols-1 lg:mt-28 mt-28">
+                <div class="grid lg:grid-cols-10 grid-cols-1 lg:mt-40 mt-28">
                     <div class="col-span-5 mx-auto lg:my-auto lg:hidden">
                         <img src="./images/logos/three_logos.png" alt="best events" class="max-h-40 my-3" />
                     </div>
                     <div class="col-span-5 mx-auto lg:my-auto lg:text-left text-center">
-                        <h2 class="lg:mb-3 my-3 text-2xl font-bold mx-10 ">
+                        <h2 class="lg:mb-3 my-3 text-2xl font-bold mx-10">
                             Our events
                         </h2>
-                        <p class="text-lg max-w-2xl md:mx-10">
+                        <p class="text-lg max-w-2xl mx-10">
                             BEST organises a set of events that mainly focus
                             on providing unique experiences to technology
                             students and on complementing their education in
@@ -242,14 +241,14 @@
                     preserveAspectRatio="none">
                     <path
                         d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z"
-                        class="fill-white" ></path>
+                        class="fill-white"></path>
                 </svg>
             </div>
         </section>
         <section id="social-media" class="bg-white">
             <div
                 class="max-w-5xl mx-auto grid lg:grid-cols-2 grid-cols-1 items-center content-evenly justify-items-center">
-                <div class="my-4 p-7 text-center">
+                <div class="my-4">
                     <h2 class="text-green-500 text-2xl font-semibold">
                         Follow us in our social media:
                     </h2>
@@ -284,34 +283,38 @@
                 <h2 class="text-2xl md:text-3xl font-bold text-center mt-10 md:mt-0 mb-5">
                     Some of our moments!
                 </h2>
-                <div class="mx-auto md:max-w-xl sm:max-w-md max-w-sm max-h-max w-72 md:w-120">
+                <div class="mx-auto md:max-w-xl sm:max-w-md max-w-xs max-h-max">
                     <!-- Carousel -->
                     <!-- Swiper -->
 
                     <!-- Slider main container -->
-
-                    <swiper-container class="w-72 md:w-120">
-                        <swiper-slide>
-                            <img src="./images/moments/Momento 1.jpeg" alt="Best motivational weekend"
-                            class="object-cover border-4 rounded-xl w-full" />
-                        </swiper-slide>
-                        <swiper-slide>
-                            <img src="./images/moments/Momento 2.jpeg" alt="Best motivational weekend"
-                            class="object-cover border-4 rounded-xl" />
-                        </swiper-slide>
-                        <swiper-slide>
-                            <img src="./images/moments/Momento 3.jpeg" alt="Best motivational weekend"
-                            class="object-cover border-4 rounded-xl" />
-                        </swiper-slide>
-                        <swiper-slide>
-                            <img src="./images/moments/Momento 4.jpeg" alt="Best motivational weekend"
-                            class="object-cover border-4 rounded-xl" />
-                        </swiper-slide>
-                        <swiper-slide>
-                            <img src="./images/moments/Momento 5.jpeg" alt="Best motivational weekend"
-                            class="object-cover border-4 rounded-xl" />
-                        </swiper-slide>
-                    </swiper-container>
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src="./images/moments/Momento 1.jpeg" alt="Best motivational weekend"
+                                    class="object-cover border-4 rounded-xl" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/moments/Momento 2.jpeg" alt="Best motivational weekend"
+                                    class="object-cover border-4 rounded-xl" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/moments/Momento 3.jpeg" alt="Best motivational weekend"
+                                    class="object-cover border-4 rounded-xl" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/moments/Momento 4.jpeg" alt="Best motivational weekend"
+                                    class="object-cover border-4 rounded-xl" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/moments/Momento 5.jpeg" alt="Best motivational weekend"
+                                    class="object-cover border-4 rounded-xl" />
+                            </div>
+                        </div>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
 
                     <!-- End Of Carousel -->
 
@@ -390,7 +393,10 @@
             </div>
         </div>
     </footer>
-    
+    <!-- Scripts -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/button_events.js"></script>
+    <script src="./js/carousel.js"></script>
 </body>
 
 </html>
